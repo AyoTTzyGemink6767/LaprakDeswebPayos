@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Konsultasi - Klinik Mesin Tik Antik</title>
+</head>
+<body>
+    <header>
+        <h1>Klinik Mesin Tik Antik</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="layanan.html">Katalog Layanan</a></li>
+            <li><a href="konsultasi.html">Form Konsultasi</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Pengajuan Analisis Kerusakan</h2>
+        <p>Isi formulir pengajuan di bawah agar teknisi kami dapat menaksir kondisi mesin tik Anda.</p>
+        
+        <form action="#" method="POST">
+            <p>
+                <label for="nama_klien">Nama Lengkap:</label><br>
+                <input type="text" id="nama_klien" name="nama_klien" required>
+            </p>
+            <p>
+                <label for="email_klien">Email Kontak:</label><br>
+                <input type="email" id="email_klien" name="email_klien" required>
+            </p>
+            <p>Tingkat Kerusakan (Pilih salah satu):</p>
+            <p>
+                <input type="radio" id="kondisi_macet" name="kondisi_mesin" value="macet_total" required>
+                <label for="kondisi_macet">Tuts macet total / Karat berat</label><br>
+                <input type="radio" id="kondisi_berjalan" name="kondisi_mesin" value="berjalan">
+                <label for="kondisi_berjalan">Masih bisa mengetik namun seret / pita kering</label>
+            </p>
+            <p>
+                <button type="submit">Kirim Form Konsultasi</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Klinik Mesin Tik Antik.</p>
+    </footer>
+</body>
+</html>
